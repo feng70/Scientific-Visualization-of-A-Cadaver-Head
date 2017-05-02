@@ -22,19 +22,19 @@ The main algorithm of the rendering is **[Marching cubes](https://en.wikipedia.o
 
 Marching cubes algorithm use for extracting a polygonal mesh of an isosurface from a three-dimensional discrete scalar field (sometimes called voxels). The algorithm proceeds through the scalar field, taking eight neighbor locations at a time (thus forming an imaginary cube), then determining the polygon(s) needed to represent the part of the isosurface that passes through this cube. The individual polygons are then fused into the desired surface.The applications of this algorithm are mainly concerned with medical visualizations such as CT and MRI scan data images, and special effects or 3-D modelling with what is usually called metaballs or other metasurfaces(wiki).
 
-![](http://mc)
+![](https://github.com/ruange/Scientific-Visualization-of-A-Cadaver-Head/blob/master/image%20and%20gif/MarchingCubes.png)
 
 ## Display: ##
 There are two surfaces rendered,representing skin and bone.The opacity of the surface is adjustable.
 
 Set skin opacity 1:
 
-![1](http://1)
+![](https://github.com/ruange/Scientific-Visualization-of-A-Cadaver-Head/blob/master/image%20and%20gif/opacity_1.gif)
 
 Set skin opacity 0.5:
 
-![2](http://2)
+![](https://github.com/ruange/Scientific-Visualization-of-A-Cadaver-Head/blob/master/image%20and%20gif/opacity_0.5.gif)
 
 set skin opacity 0:
  
-![3](http://3)
+![](https://github.com/ruange/Scientific-Visualization-of-A-Cadaver-Head/blob/master/image%20and%20gif/opacity_0.gif)
